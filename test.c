@@ -1,6 +1,6 @@
 #include<stdio.h>
 
 int main() {
-    printf("abcdef");
+    printf("abcf");
     return 0;
 }
