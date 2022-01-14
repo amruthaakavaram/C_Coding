@@ -12,4 +12,18 @@ int main()
     int e=10,f;                   //unary operators
     f=++e;
     printf("the value of e,f are:%d %d \n",e,f);
+
+    int g=13,h=15;                //logical operators
+    printf("%d \n",g&&h);
+    printf("%d \n",g||h);
+
+
+    int i=27,j=45;               //bitwise operators
+    printf("%d \n",i&j);
+    printf("%d \n",i|j);
+    printf("%d \n",i<<1);
+    printf("%d \n",j>>1);
+
+    
+    
 }
