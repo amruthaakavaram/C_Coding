@@ -14,16 +14,20 @@ int main()
     printf("the value of e,f are:%d %d \n",e,f);
 
     int g=13,h=15;                //logical operators
-    printf("%d \n",g&&h);
+    printf("%d ",g&&h);
     printf("%d \n",g||h);
 
 
     int i=27,j=45;               //bitwise operators
-    printf("%d \n",i&j);
-    printf("%d \n",i|j);
-    printf("%d \n",i<<1);
+    printf("%d ",i&j);
+    printf("%d ",i|j);
+    printf("%d ",i<<1);
     printf("%d \n",j>>1);
 
-    
-    
+    int k=15,l;
+    printf("%d ",k+=l);
+    printf("%d ",k-=l);
+    printf("%d ",k/=l);
+    printf("%d \n",k%=l);
+    return 0;
 }
