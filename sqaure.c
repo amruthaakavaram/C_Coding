@@ -2,5 +2,5 @@
 #define square(a) a*a
 int main()
 {
-    printf("square of 15 is:%d",square(15));
+    printf("square of 16 is:%d",square(15));
 }
