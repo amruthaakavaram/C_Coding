@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main(){
     int age;
-    char id;
+    char id,temp;
     printf("enter your age:");
     scanf("%d",&age);
+    scanf("%c",&temp);
     if(age>=18){
         printf("Do you have identity proof press (Y) or (N):");
         scanf("%c",&id);
