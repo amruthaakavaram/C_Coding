@@ -11,7 +11,7 @@ int main()
     printf("1.Addition\n 2.Subtraction \n 3.Multiplication\n 4.Division\n 5.Modulus\n");
     printf("enter the operator you want to perform:");
     scanf("%d",&operator);
-    scanf("%c", temp1);
+    scanf("%c", &temp1);
     switch(operator)
     {
     case 1 :
@@ -45,6 +45,6 @@ int main()
     printf("Do you want continue the operation(y/Y):");
     scanf("%c",&c);
     }
-    while(c=='Y'||'y');
+    while(c=='Y'|| c=='y');
     return 0;
 }
