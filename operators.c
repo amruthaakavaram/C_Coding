@@ -18,13 +18,13 @@ int main()
     printf("%d \n",g||h);
 
 
-    int i=27,j=45;               //bitwise operators
+    int i=13,j=15;               //bitwise operators
     printf("%d ",i&j);
     printf("%d ",i|j);
     printf("%d ",i<<1);
     printf("%d \n",j>>1);
 
-    int k=15,l;
+    int k=15,l;               //assignment operators
     printf("%d ",k+=l);
     printf("%d ",k-=l);
     printf("%d ",k/=l);
