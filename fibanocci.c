@@ -1,12 +1,12 @@
 #include<stdio.h>
 void main()
 {
-    unsigned long long int a=1,b=1,c,n,i;
+    int a=1,b=1,c,n,i;
     printf("Enter the n value to generate fibanocci series:");
     scanf("%d",&n);
     if(n==1)
     {
-        printf("%2d %2d \t",a,b);
+        printf("%d\t",a);
     }
     else
     {
@@ -17,6 +17,6 @@ void main()
             a=b;
             b=c;
             }
-        printf("the fibanocci series of %dth term is: %d",n,(c-a));
+        
     }
 }

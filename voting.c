@@ -11,9 +11,10 @@ int main(){
         if (id=='Y' || id=='y'){
             printf("You are ELIGIBLE for casting your vote");
         }
-        if(id== 'n' || id=='N'){
+         if(id== 'n' || id=='N'){
             printf("You are NOT ELIGIBLE for casting your vote");
         }
+       
     }
         
     else{
