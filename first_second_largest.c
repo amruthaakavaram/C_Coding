@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int i,n,a[i],f=0,s=0;
+    int i,n,a[100],f=0,s=0;
     printf("Enter no of elements in array:");
     scanf("%d",&n);
     printf("Enter the elements of array:");
@@ -16,7 +16,7 @@ void main()
         s=f;
         f=a[i];    
     }
-    else if(a[i]>s && f != s)
+    else if(a[i]>s && a[i] != f)
     {
         s=a[i];
     }
