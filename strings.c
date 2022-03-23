@@ -4,20 +4,21 @@
 void main(){
     char a[10],b[10];
     int ch, len;
-    printf("enter str1:");
+    printf("enter str1:\n");
     scanf("%s",a);
-    printf("enter str2:");
+    printf("enter str2:\n");
     scanf("%s",b);
     while(1)
     {
         printf("choose ur option \n");
         printf("1.length\n 2.compare\n3.copy\n4.concat\n5.exit\n");
-        printf("enter your choice:");
+        printf("enter your choice:\n");
         scanf("%d",&ch);
         switch(ch)
         {
             case 1: len=strlen(a);
             printf("length of 1st string is %d\n",len);
+            
             break;
             case 2: if(strcmp(a,b)==0){
                 printf("both strings are equal\n");
