@@ -1,14 +1,13 @@
 #include<stdio.h>
-int fac(int n);
-void main(){
-    int f,a;
+int fac(int f);
+int main(){
+    int f;
     printf("enter a number");
     scanf("%d",&f);
-    a=fac(f);
-    printf("the factorial of given number is %d",a);
+    printf("factorial of number is %d",fac(f));
+    return 0;
 }
-int fac(int n){
-    int f,a;
+int fac(int f){
     if(f>=1){
         return(f*fac(f-1));
     }
