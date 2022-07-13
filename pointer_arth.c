@@ -5,6 +5,6 @@ void main(){
     p1=&n;
     printf("enter a number");
     scanf("%d",&n);
-    printf("increament: %d\n",p1++);
-    printf("decreament: %d\n",p1--);
+    printf("%u\n",p1+=4);
+    printf(" %u\n",p1-=4);
 }

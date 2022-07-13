@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()                           
 {
-    int a=10,b=20;                  //arthmetic operator
+    int a=10,b=20;                  //arthmetic operator + - * / %
     printf("sum of a and b is:%d \n",a+b);
     
     

@@ -1,4 +1,6 @@
+//name o
 #include<stdio.h>
+
 int fac(int);                       //function declaration
 void main()
 {
