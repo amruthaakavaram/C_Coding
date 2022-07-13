@@ -1,20 +1,21 @@
-#include <stdio.h>
-
-int main() {
-    int a[5]={40,30,40,20,10};
-    int n=5,i,temp;
+#include<stdio.h>
+int main(){
+    int a[20],i,j,t,n;
+    scanf("%d",&n);
     for(i=0;i<n;i++){
-        int j=i-1;
-        temp = a[i];
-        while(temp<a[j] && j>=0){
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<n;i++){
+        j=i-1;
+        t=a[i];
+        while(t<a[j]&&j>=0){
             a[j+1]=a[j];
             j--;
         }
-        a[j+1]=temp;
+        a[j+1]=t;
     }
+    printf("ordered array is:\n");
     for(i=0;i<n;i++){
-        printf("%d ",a[i]);
+        printf("%d\t",a[i]);
     }
-    
-    return 0;
 }
