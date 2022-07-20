@@ -20,5 +20,5 @@ if(pos>0){
 }
 else{
         printf("element not found");
-}
+        }
 }
